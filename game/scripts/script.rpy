@@ -45,6 +45,10 @@ label splashscreen_2:
     with dissolve4
     return
 
+label main_menu:
+    play music mnd_a3_menu fadein 2
+    call screen main_menu
+
 label start:
     stop music fadeout 4
     scene black with fade3
